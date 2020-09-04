@@ -23,7 +23,7 @@ public class numerosParesPrimos {
          //variable de entrada que referencia la cantidad de parejas de primos a desarrollar
         int numeroDePrimos;
         //Entrada de variables
-        System.out.println("ingrese un numero");
+        System.out.println("ingrese el números de primos gemelos que desea obtener");
         numeroDePrimos=lectura.nextInt();
         //Llamado a la función que calcula números primos
         String cadenaPrimosGemelos=esPrimo(numeroDePrimos);
@@ -103,7 +103,7 @@ public class numerosParesPrimos {
         }else{
             cadena = null;
         }
-      return cadena ;
+      return cadena ; //Retorno de cadena de ser un par gemelos
     }
     
 }
